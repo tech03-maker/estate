@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    /* position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99; */
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-item:hover .nav-link{
+    color: green;
+}
+
+.carousel-inner{
+    width: 100px;
+    /* height: 900px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%);
+}
+
+#input2{
+    width: 150%;
+}
+#input3{
+    width: 40%;
+    position: relative;
+    margin-left: 2rem;
+}
+#input4{
+    width: 40%;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+label, option{
+    color: green;
+}
+
+.form-group{
+    font-family: bahnschrift;
+    font-size: 20px;
+    width: 60%;
+}
+
+.featured{
+    font-family: bahnschrift;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    /* font-family: calibri; */
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+.prop a{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+.prop a:hover{
+    color: green;
+    font-weight: 300;
+}
+
+.boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    color: white;
+    font-family: bahnschrift;
+}
+
+.card-img{
+    width: 28%;
+    /* height: 22rem; */
+    height: 500px;
+    /* margin-left: 40px; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%), url(images/archi-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+}
+
+.card{
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.589);
+}
+
+span{
+    /* color: grey; */
+    font-size: 20px;
+    font-weight: lighter;
+}
+.card-title{
+    font-size: 25px;
+    /* width: 500px; */
+    /* padding-top: 14rem;
+    padding-left: 55px; */
+}
+
+ .card-text  #btn-1{
+    width: 170px;
+    /* margin-left: 20px; */
+    color: white;
+    transition: ease-in 0.3s;
+    /* margin-top: 13px; */
+}
+
+ .card-text #btn-1:hover{
+    transform: translateX(5px);
+    box-shadow: 0px 5px 10px green;
+    background: transparent;
+}
+
+.card p{
+    text-decoration: none;
+}
+.card p:hover a{
+    background-color: rgb(17, 122, 65);
+    color: white !important;
+    /* width: 100%; */
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.click a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 0.2s;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    transition: ease-out 0.3s;
+    font-family: bahnschrift;
+}
+
+.click a:hover{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+}
+
+.card-img-overlay{
+    position: relative;
+    top: 15px;
+}
+
+.pillar{
+    font-size: 60px;
+    color: white;
+    /* font-family: calibri; */
+    font-weight: bold;
+}
+
+.white-div{
+    /* width: 200px; */
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.61);
+    /* filter: blur(5px); */
+    /* box-shadow: 0px 5px 7px grey; */
+    font-family: bahnschrift;
+    color: black;
+    border-right: 1px solid black;
+}
+
+.white-div i{
+    font-size: 100px;
+    position: relative;
+    /* top: px; */
+    margin-top: 25px;
+}
+
+.details{
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.white-div .details:hover{
+    display: block;
+}
+
+.content{
+    font-family: arial;
+    font-family: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.attach{
+    text-align:center;
+    margin-top:50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%),url(../images/archi-3.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image-fluid{
+    filter: brightness(50%);
+}
+
+.board{
+    font-weight: bold;
+    font-size: 40px;
+    /* font-family: calibri; */
+    text-align: center;
+}
+
+.bef1{
+    width: 350px;
+    height: 400px;
+    background-color: black;
+}
+
+
+.chuks{
+    width: 330px;
+    height: 700px;
+    /* margin-left: 30px; */
+    /* background-color: aquamarine; */
+     box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.555);
+}
+
+.picture{
+    width: 100%;
+    top: 20px;
+    height: 60%;
+    background-image: url(images/chuma.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.name a{
+    font-family: bahnschrift;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.name:hover a{
+    text-decoration: 2px solid green underline;
+    color: green;
+}
+
+.line{
+    height: 2px;
+    width: 50%;
+    background-color: rgba(0, 128, 0, 0.664);
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.below{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post{
+     color: grey;
+    /* position: relative; */
+    /* right: 50px; */
+    font-weight: bold;
+    font-family: bahnschrift;
+}
+
+.post2{
+    position: relative;
+    bottom: 1.2rem;
+    padding-left: 10px;
+}
+
+#phone{
+    position: relative;
+    bottom: 1.7rem;
+    left: 10px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p{
+    font-size: 18px;
+}
+
+.meet{
+    position: relative;
+    bottom: 2rem;
+    margin-left: 10px;
+}
+
+.socials i a{
+    display: block;
+    margin-bottom: -7px;
+   margin-top: 15px;
+   text-decoration: none;
+   box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.555);
+}
+
+.socials{
+    background-color: rgba(9, 131, 56, 0.959);
+    height: 150px;
+    margin-left: 5px;
+    width: 30px;
+    position: relative;
+    bottom: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.555);
+
+}
+
+.in-div{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.testi{
+    font-size: 35px;
+
+}
+
+.customers{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(15, 189, 108);
+    border-radius: 30px;
+    margin-top: 120px;
+    position: relative;
+    right: 7rem;
+    justify-content: center;
+    padding-left: 20px;
+    box-shadow: 0px 10px 10px rgba(18, 197, 98, 0.829);
+
+}
+
+.heads{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -2rem;
+}
+
+/* .logo{
+    animation: up_down 3s linear infinite;
+    margin-top: 30px;
+}
+
+@keyframes up_down{
+    5% {
+        transform: translateY(0rem);
+    }
+    20%{
+        transform: translateY(1rem);
+    }
+} */
+
+.heads-up{
+    height: 150px;
+    margin-left: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 128, 0, 0.555);
+}
+
+.h4{
+    font-size: 21px;
+	color: #07528d;
+	margin-top: 25px;
+    letter-spacing: 0;
+	font-weight: normal;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	line-height: 120% !important;
+	/* color: #1f1f1f; */
+	margin: 0
+}
+
+.h2 span{
+    font-size: 35px;
+    color: black;
+}
+
+.pic-image{
+    background-color: white;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    /* display: none; */
+    height: 550px;
+    /* width: 100px; */
+    justify-content: center;
+    color: green;
+    margin-left: 30px;
+}
+
+.director{
+    height: 350px;
+}
+
+.dr{
+    color: green;
+}
+
+#image-fluid{
+    filter: brightness(70%);
+}
+
+.full i{
+    margin-left: 20px;
+}

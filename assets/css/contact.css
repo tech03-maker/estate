@@ -1,0 +1,38 @@
+.con1{
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+form{
+    justify-content: center;
+}
+
+.places{
+        background-color: green;
+        height: 500px;
+        color: white;
+}
+
+.places i,p{
+    font-size: 30px;
+}
+
+.section-b2 {
+    padding-bottom: 2rem;
+}
+
+.icon-box .icon-box-icon i {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 30px;
+    color: green;
+    width: 50px;
+    padding-top: 8px;
+}
+
+#plane{
+    position: relative;
+    right: 3rem;
+    top: 2rem;
+}

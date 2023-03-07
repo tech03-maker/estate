@@ -1,0 +1,15 @@
+.title-single{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.grid-option .custom-select {
+    border-radius: 0;
+    width: 200px;
+    border-color: #313131;
+}
+
+.grid-option .custom-select{
+    float: right;
+}

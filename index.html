@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estate</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <!-- <link rel="stylesheet" href="dist/aos.css" /> -->
+    <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.css" />
+    <link rel="stylesheet" href="assets/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <!-- <link rel="stylesheet" href="css/pogo-slider.min.css" /> -->
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style2.css">
+    
+  </head>
+  <style>
+    
+  </style>
+  <body>
+    <div id="preloader">
+      <div class="loader">
+          <img src="assets/images/loader.gif" alt="#" />
+      </div>
+  </div>
+    <nav
+      class="navbar navbar-expand-lg bg-light"
+      style="top:0;box-shadow: 0px 2px 10px grey; align-items: center"
+    >
+      <div class="container-fluid">
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="assets/images/property.png"
+                alt="Logo"
+                width="80"
+                height="80"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+          </div>
+        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pages/properties.html">Property</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/service.html">Our Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/career.html">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="fa fa-search"></i>
+  </button>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: green;">Search</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <input type="search" name="" id="input" class="form-control" placeholder="Keyword" required="required">
+          
+            <div class="two">  
+                <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label">Type</label>
+                    <div class="col-sm-10">
+                        <select name="" class="form-control">
+                            <option value="">All Type</option>
+                            <option value="">Rent</option>
+                            <option value="">Sale</option>
+                            <option value="">Open House</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label">City</label>
+                    <div class="col-sm-10">
+                        <select name="" class="form-control">
+                            <option value="1">All City</option>
+                            <option value="2">Alabama</option>
+                            <option value="3">Arizona</option>
+                            <option value="4">Colorado</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+  
+  
+            <div class="two">  
+                <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label">Bedrooms</label>
+                    <div class="col-sm-10">
+                        <select name=""  class="form-control">
+                            <option value="">Any</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label">Garages</label>
+                    <div class="col-sm-10">
+                        <select name="" class="form-control">
+                            <option value="1">Any</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+  
+  
+            <div class="two">  
+                <div class="form-group"> 
+                    <label for="input" class="col-sm-2 control-label">Bathroom</label>
+                    <div class="col-sm-10">
+                        <select name="" class="form-control">
+                            <option value="">Any</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label">Min. Price</label>
+                    <div class="col-sm-10">
+                        <select name="" class="form-control">
+                            <option value="1">Unlimited</option>
+                            <option value="2">$150,000</option>
+                            <option value="3">$200,000</option>
+                            <option value="4">$250,000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Search Property</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+      </div>
+  
+    </nav>
+
+  <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="height:600px;">
+        <img class="image-fluid w-100" src=" assets/images/image-15.jpg"  class="w-100 d-block" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="font-size: 60px; font-weight: bold; position: relative; bottom: 3rem; color: white;">PROJECT MANAGEMENT</h3>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 600px;">
+        <img class="image-fluid w-100" src="assets/images/1e077907379edc2bc46866f4db424e53.jpg" class="w-100 d-block" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="font-size: 60px; font-weight: bold; position: relative; bottom: 3rem; color: white;">ESTATE CONSULTANCY</h3>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 600px;">
+        <img  class="image-fluid w-100" src="assets/images/9f9b3154a65acbf250d312fbab31b7fe.jpg" class="w-100 d-block" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="font-size: 60px; font-weight: bold; position: relative; bottom: 3rem; color: white;">REAL ESTATE MARKETING</h3>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+        <div class="container" style="margin-top: 90px; justify-content: center; text-align: center;" data-aos="fade-left" data-aos="fade-left">
+            <div class="featured" data-aos="fade-left">
+                <h2 class="left">Featured Properties</h2>
+                <p class="prop"> <a href="#">All Properties <i class="fa fa-angle-right"></i></a></p>
+            </div>
+            <div class="row" style="margin-top: 30px; justify-content: center;" >
+              <div class="row justify-content-evenly mt-5">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3 justify-content-around">
+    
+                  <div class="card" style="width: 18rem;">
+                    <img id="image-fluid" src="assets/images/image-20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div style=" justify-content: space-around; display: flex;">
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Area:</h2>
+                          <h5 class="card-text">254.0000m<sup>2</sup></h5>
+                        </div>
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Beds:</h2>
+                          <h5 class="card-text">Bed</h5>
+                        </div>
+                      </div>
+                      <div style=" justify-content: space-around; display: flex; border-top: 1px solid black; padding-top: 15px;">
+                        <div class="card-title" style="text-align: center; margin-left: 20px;">
+                          <h2>Baths:</h2>
+                          <h5 class="card-text">Bath</h5>
+                        </div>
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Garages:</h2>
+                          <h5 class="card-text">Garage</h5>
+                        </div>
+                      </div>
+                      <p><a href="pages/detail.html">View Detail</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3 justify-content-around">
+    
+                  <div class="card" style="width: 18rem;">
+                    <img id="image-fluid" src="assets/images/25ac0368e834df1b7df1c0cc666e6898.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div style=" justify-content: space-around; display: flex;">
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Area:</h2>
+                          <h5 class="card-text">254.0000m<sup>2</sup></h5>
+                        </div>
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Beds:</h2>
+                          <h5 class="card-text">Bed</h5>
+                        </div>
+                      </div>
+                      <div style=" justify-content: space-around; display: flex; border-top: 1px solid black; padding-top: 15px;">
+                        <div class="card-title" style="text-align: center; margin-left: 20px;">
+                          <h2>Baths:</h2>
+                          <h5 class="card-text">Bath</h5>
+                        </div>
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Garages:</h2>
+                          <h5 class="card-text">Garage</h5>
+                        </div>
+                      </div>
+                      <p><a href="pages/detail.html">View Detail</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3 justify-content-around">
+    
+                  <div class="card" style="width: 18rem;">
+                    <img id="image-fluid" src="assets/images/image-16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div style=" justify-content: space-around; display: flex;">
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Area:</h2>
+                          <h5 class="card-text">254.0000m<sup>2</sup></h5>
+                        </div>
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Beds:</h2>
+                          <h5 class="card-text">Bed</h5>
+                        </div>
+                      </div>
+                      <div style=" justify-content: space-around; display: flex; border-top: 1px solid black; padding-top: 15px;">
+                        <div class="card-title" style="text-align: center; margin-left: 20px;">
+                          <h2>Baths:</h2>
+                          <h5 class="card-text">Bath</h5>
+                        </div>
+                        <div class="card-title" style="text-align: center;">
+                          <h2>Garages:</h2>
+                          <h5 class="card-text">Garage</h5>
+                        </div>
+                      </div>
+                      <p><a href="pages/detail.html">View Detail</a></p>
+                    </div>
+                  </div>
+                </div>
+             
+            </div>
+            </div>
+        </div>
+        
+        </div>
+        
+        <div class="attach">
+          <h1 class="pillar">Our Brand Pillar</h1>
+          <div class="container">
+          <div class="row" style="margin-top: 40px;">
+            <div class="white-div col-md-6 col-sm-12 col-lg-4 mb-5" data-aos="fade-left">
+              <i class="fa fa-circle-user"></i>
+              <p class="details">Mission Statement</p>
+              <p class="content">To guarantee a rest of mind to every<br>stakeholder through a transparent, fast<br>and accurate service delivery from our<br>team of professionals which every client<br>will sincerely recommend to a loved one.</p>
+            </div>
+            <div class="white-div col-md-6 col-sm-12 col-lg-4 mb-5" data-aos="fade-left">
+              <i class="fa fa-circle-user"></i>
+              <p class="details">Vision Statement</p>
+              <p class="content">To be the leading real estate company in<br>Nigeria in quality service, innovation and<br>in area of coverage which every client will<br>sincerely recommend to a loved one.</p>
+            </div>
+            <div class="white-div col-md-6 col-sm-12 col-lg-4" data-aos="fade-left">
+              <i class="fa fa-circle-user"></i>
+              <p class="details">Our Values</p>
+              <p class="content">★ Transparency: Pre-information, no hidden secrets, carried along.</p>
+              <p class="content">★ Accuracy:Due diligence, accurate figures, no excess charges.</p>
+              <p class="content">★ Fast: response to needs, meeting your needs, no delays.</p>
+              <p class="content" style="font-size: 18px;">★ Rest of mind:Avoid phish transactions, delightful and recommendable service, extra mile.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="container" style="margin-top: 40px;">
+          <h2 class="board">Board / Management Team</h2>
+          <div class="row justify-content-evenly mt-5">
+            <div class="col-lg-3 mb-3 justify-content-around">
+
+              <div class="card" style="width: 18rem;">
+                <img src="assets/images/chuma2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold">Fabian Chukwuma<br>
+                    <span style="font-weight: lighter; font-size: 15px;">Executive Director</span></p>
+                    <p>Seasoned Manager and experienced Business Administrator.</p>
+                    <div>
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-pinterest"></i></a>
+                      <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 justify-content-around">
+
+              <div class="card" style="width: 18rem;">
+                <img src="assets/images/dir.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fw-bold">Innocent Umezuruike
+                   <br>
+                    <span style="font-weight: lighter; font-size: 15px;"> Head of Admin</span></p>
+                    <p>Astute Human Resources Manager</p>
+                    <div>
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-pinterest"></i></a>
+                      <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+            
+        </div>
+        
+
+        <div class="section layout_padding padding_bottom-0">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="full">
+                          <div class="heading_main text_align_center" style="color: black;">
+                 <h2 class="h2" style="color: black;"><span>Testimonials</span></h2>
+                          </div>
+              </div>
+                  </div>
+          </div>
+                 
+          </div>
+
+          <div class="site-section bg-left-half mb-5">
+            <div class="container owl-2-style">      
+      
+              <div class="owl-carousel owl-2">
+      
+                <div class="media-29101">
+                  <img src="assets/images/testtimonial2.jpg" alt="Image" class="img-fluid">
+                  <h3><a href="#">Hamzat Jamiu</a></h3>
+                  <p style="color:black;">I was new in Port Harcourt and in need of a decent and cheap accommodation. It was tough until a friend directed me to Grandeur Cribs.
+                    Apart from the flexible payment options, post letting services also made things easy for me being a stranger in Port Harcourt.</p>
+                </div>
+      
+                <div class="media-29101">
+                  <img src="assets/images/testimonial33.jpg" alt="Image" class="img-fluid">
+                  <h3><a href="#">Mr. Stephen</a></h3>
+                  <p style="color:black;">Grandeur Cribs I give you 100% for understanding exactly what I want and delivering within my budget line.</p>
+                </div>
+      
+                <div class="media-29101">
+                  <img src="assets/images/testtimonial2.jpg" alt="Image" class="img-fluid">
+                  <h3><a href="#">Engr. Udoka</a></h3>
+                  <p style="color:black;">Thanks Grandeur cribs Limited for the prompt delivery of your service for me. I am amazed. I can't believe I can get it so easy.</p>
+                </div>
+      
+                <div class="media-29101">
+                  <img src="assets/images/testimonial33.jpg" alt="Image" class="img-fluid">
+                  <h3><a href="#">Mr. Femi</a></h3>
+                  <p style="color:black;">I'm in love with you Grandeur.</p>
+                </div>
+      
+                <div class="media-29101">
+                  <img src="assets/images/testtimonial2.jpg" alt="Image" class="img-fluid">
+                  <h3><a href="#">Engr. Udoka</a></h3>
+                  <p style="color:black;">I think you deserve my recommendations for this office space you sourced out for me.</p>
+                </div>
+      
+                <div class="media-29101">
+                  <img src="assets/images/testimonial33.jpg" alt="Image" class="img-fluid">
+                  <h3><a href="#">Fatah</a></h3>
+                  <p style="color:black;">The people who know you should appreciate you. I've seen TED talks with less flair than what your status gives. It's like knowledge for free</p>
+                </div>
+      
+              </div>
+      
+            </div>
+          </div>
+      
+        </div>
+                <!-- Start Footer -->
+    <footer class="footer-box">
+      <div class="container">
+  
+     <div class="row">
+     
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+         <div class="footer_blog">
+          <div class="full margin-bottom_30">
+           <img src="assets/images/property.png" alt="#" style="height: 80px; width: 100px; background-color: white;" />
+         </div>
+         <div class="full white_fonts">
+            <p>Grandeur cribs Limited is a commercial real estate company that is actively involved in sales, acquisition, leasing/renting, facility management of commercial and residential properties. We also carryout project management and project development services. We have built an edge with a team of professionals who have long period of cognate experience in real estate development marketing and management. The company is established in 2019 to guarantee a rest of mind in your quest for shelter and land. </p>
+         </div>
+       </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+           <div class="footer_blog footer_menu white_fonts">
+              <h3>Quick links</h3>
+              <ul> 
+              <li><a href="#">> Home</a></li>
+              <li><a href="#">> About Us</a></li>
+              <li><a href="#">> Property</a></li>
+              <li><a href="#">> Our Service</a></li>
+              <li><a href="#">> Career</a></li>
+              <li><a href="#">> Contact</a></li>
+            </ul>
+           </div>
+       </div>
+       
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+       <div class="footer_blog full white_fonts">
+               <h3>Newsletter</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+             <div class="newsletter_form">
+                <form action="index.html">
+                 <input type="email" placeholder="Your Email" name="#" required />
+                 <button>Submit</button>
+              </form>
+             </div>
+           </div>
+        </div>	 
+      
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+       <div class="footer_blog full white_fonts">
+               <h3>Contact us</h3>
+             <ul class="full">
+               <li><i class="fa fa-location"></i><span> Plot 29 Dr. Peter Odili Road by Parkland estate Trans Amadi Port Harcourt.</span></li>
+               <li><i class="fa fa-mail-bulk"></i><span> info@grandeurcribslimited.com</span></li>
+               <li><i class="fa fa-phone"></i><span>(+234) 816 073 9629</span></li>
+               <div style="margin-left: 20px;">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+              </div>
+             </ul>
+           </div>
+        </div>	 
+      
+     </div>
+  
+      </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div class="footer_bottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <p class="crp">© Copyright (GCL) All Rights Reserved.</p>
+                  <p class="crp">Designed by I-TECH HUB</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+
+        
+
+  </body>
+  <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+   <!-- ALL JS FILES -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/popper.min.js"></script>
+     <script src="assets/js/bootstrap.min.js"></script>
+     <!-- ALL PLUGINS -->
+     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+     <script src="assets/js/jquery.pogo-slider.min.js"></script>
+     <script src="assets/js/slider-index.js"></script>
+     <!-- <script src="assets/js/smoothscroll.js"></script> -->
+     <script src="assets/js/form-validator.min.js"></script>
+     <script src="assets/js/contact-form-script.js"></script>
+     <script src="assets/js/isotope.min.js"></script>
+     <script src="assets/js/images-loded.min.js"></script>
+     <script src="assets/js/custom.js"></script>
+     <script src="assets/js/jquery-3.3.1.min.js"></script>
+         <!-- <script src="js2/bootstrap.min.js"></script> -->
+         <script src="assets/js/popper.min.js"></script>
+         <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+         <script src="assets/js/owl.carousel.min.js"></script>
+         <script src="assets/js/main.js"></script>
+</html>
+
+
+
+
+
+
+

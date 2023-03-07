@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <!-- <link rel="stylesheet" href="dist/aos.css" /> -->
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.css" />
+    <link rel="stylesheet" href="../assets/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <!-- <link rel="stylesheet" href="css/pogo-slider.min.css" /> -->
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="../assets/css/style2.css">
+  </head>
+
+  <style>
+    .img-fluid{
+      filter: brightness(50%);
+    }
+  </style>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <img src="../assets/images/loader.gif" alt="#" />
+        </div>
+    </div>
+      <nav
+        class="navbar navbar-expand-lg bg-light"
+        style="top:0;box-shadow: 0px 2px 10px grey; align-items: center"
+      >
+        <div class="container-fluid">
+          <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="../assets/images/property.png"
+                  alt="Logo"
+                  width="80"
+                  height="80"
+                  class="d-inline-block align-text-top"
+                />
+              </a>
+            </div>
+          </nav>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="properties.html">Property</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Our Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="career.html">Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- Button trigger modal -->
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="fa fa-search"></i>
+    </button>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: green;">Search</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            
+            <input type="search" name="" id="input" class="form-control" placeholder="Keyword" required="required">
+            
+              <div class="two">  
+                  <div class="form-group">
+                      <label for="input" class="col-sm-2 control-label">Type</label>
+                      <div class="col-sm-10">
+                          <select name="" class="form-control">
+                              <option value="">All Type</option>
+                              <option value="">Rent</option>
+                              <option value="">Sale</option>
+                              <option value="">Open House</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="input" class="col-sm-2 control-label">City</label>
+                      <div class="col-sm-10">
+                          <select name="" class="form-control">
+                              <option value="1">All City</option>
+                              <option value="2">Alabama</option>
+                              <option value="3">Arizona</option>
+                              <option value="4">Colorado</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+    
+    
+              <div class="two">  
+                  <div class="form-group">
+                      <label for="input" class="col-sm-2 control-label">Bedrooms</label>
+                      <div class="col-sm-10">
+                          <select name=""  class="form-control">
+                              <option value="">Any</option>
+                              <option value="">1</option>
+                              <option value="">2</option>
+                              <option value="">3</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="input" class="col-sm-2 control-label">Garages</label>
+                      <div class="col-sm-10">
+                          <select name="" class="form-control">
+                              <option value="1">Any</option>
+                              <option value="2">1</option>
+                              <option value="3">2</option>
+                              <option value="4">3</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+    
+    
+              <div class="two">  
+                  <div class="form-group"> 
+                      <label for="input" class="col-sm-2 control-label">Bathroom</label>
+                      <div class="col-sm-10">
+                          <select name="" class="form-control">
+                              <option value="">Any</option>
+                              <option value="">1</option>
+                              <option value="">2</option>
+                              <option value="">3</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="input" class="col-sm-2 control-label">Min. Price</label>
+                      <div class="col-sm-10">
+                          <select name="" class="form-control">
+                              <option value="1">Unlimited</option>
+                              <option value="2">$150,000</option>
+                              <option value="3">$200,000</option>
+                              <option value="4">$250,000</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Search Property</button>
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+        </div>
+    
+      </nav>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box" style="border-left: 2px solid rgb(22, 194, 22); padding-left:20px;">
+              <h1 class="title-single">Contact US</h1>
+              <span class="color-text-a" style="font-weight: lighter; font-size: 15px;">Plot 29 Dr. Peter Odili Road by Parkland estate Trans Amadi Port Harcourt.</span>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                 Contact
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+            <div class="row ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.8479108221873!2d7.048157114090278!3d4.796146542159642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cdad06f55d9f%3A0xca7e356032e92f2a!2sRitsy%20Beauty%20Passion!5e0!3m2!1sen!2sng!4v1669969497108!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form class="con1 col-lg-6 col-md-6 col-sm-12 mt-5 justify-content-center">
+                    <div class="sided d-flex justify-content-evenly w-100">
+
+                        <input type="text" name="" id="input" class="form-control  mt-4" value="" required="required" pattern="" title="" placeholder="Your Name" style="width: 260px;">
+                        
+                        <input type="email" name="" id="input" class="form-control  mt-4" value="" required="required" title="" placeholder="Your Email" style="width: 260px;">
+                    </div>
+                    <input type="text" name="" id="input" class="form-control w-100 mt-5" value="" required="required" pattern="" placeholder="Subject" title="">
+                   
+                          <textarea name="message" class="form-control w-100 mt-5" name="message" cols="45" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                          
+                          <button type="button" class="btn btn-success w-50 mt-3">Send Message</button>
+                          
+                       
+                </form>
+
+                <div class="col-md-5 section-md-t3 mt-5 ml-5" style="color: green;">
+                    <div class="icon-box section-b2">
+                      <div class="icon-box-icon">
+                        <i id="plane" class="fa fa-paper-plane"></i>
+                      </div>
+                      <div class="icon-box-content table-cell">
+                        <div class="icon-box-title">
+                          <h4 class="icon-title" style="color: green;">Say Hello</h4>
+                        </div>
+                        <div class="icon-box-content">
+                          <p class="mb-1" style="color: green;">Email.
+                            <span class="color-a" style="color: green;">info@grandeurcribslimited.com</span>
+                          </p>
+                          <p class="mb-1" style="color: green;">Phone.
+                            <span class="color-a" style="color: green;">(+234) 816 073 9629</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="icon-box section-b2">
+                      <div class="icon-box-icon">
+                        <i id="plane" class="fa fa-location"></i>
+                      </div>
+                      <div class="icon-box-content table-cell">
+                        <div class="icon-box-title">
+                          <h4 class="icon-title">Find us in</h4>
+                        </div>
+                        <div class="icon-box-content">
+                          <p class="mb-1" style="color: green;">
+                          No 29 Hon. Gideon Close Parkland Estate, Trans Amadi Port Harcourt
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="icon-box">
+                      <div class="icon-box-icon">
+                        <i id="plane" class="fa fa-link"></i>
+                      </div>
+                      <div class="icon-box-content table-cell">
+                        <div class="icon-box-title">
+                          <h4 class="icon-title">Social networks</h4>
+                        </div>
+                        <div class="icon-box-content">
+                          <div class="socials-footer">
+                            <ul class="list-inline">
+                              <li class="list-inline-item">
+                                <a href="#" class="link-one" style="color: green;">
+                                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="link-one" style="color: green;">
+                                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="link-one" style="color: green;">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="link-one" style="color: green;">
+                                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item" >
+                                <a href="#" class="link-one">
+                                  <i class="fa fa-dribbble" aria-hidden="true" style="color: green;"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+      </div>
+
+      <!-- Start Footer -->
+    <footer class="footer-box mt-5">
+        <div class="container">
+    
+       <div class="row">
+       
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+           <div class="footer_blog">
+            <div class="full margin-bottom_30">
+             <img src="../assets/images/property.png" alt="#" style="height: 80px; width: 100px; background-color: white;" />
+           </div>
+           <div class="full white_fonts">
+              <p>Grandeur cribs Limited is a commercial real estate company that is actively involved in sales, acquisition, leasing/renting, facility management of commercial and residential properties. We also carryout project management and project development services. We have built an edge with a team of professionals who have long period of cognate experience in real estate development marketing and management. The company is established in 2019 to guarantee a rest of mind in your quest for shelter and land. </p>
+           </div>
+         </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+             <div class="footer_blog footer_menu white_fonts">
+                <h3>Quick links</h3>
+                <ul> 
+                <li><a href="#">> Home</a></li>
+                <li><a href="#">> About Us</a></li>
+                <li><a href="#">> Property</a></li>
+                <li><a href="#">> Our Service</a></li>
+                <li><a href="#">> Career</a></li>
+                <li><a href="#">> Contact</a></li>
+              </ul>
+             </div>
+         </div>
+         
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+         <div class="footer_blog full white_fonts">
+                 <h3>Newsletter</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+               <div class="newsletter_form">
+                  <form action="index.html">
+                   <input type="email" placeholder="Your Email" name="#" required />
+                   <button>Submit</button>
+                </form>
+               </div>
+             </div>
+          </div>	 
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+         <div class="footer_blog full white_fonts">
+                 <h3>Contact us</h3>
+               <ul class="full">
+                 <li><i class="fa fa-location"></i><span> Plot 29 Dr. Peter Odili Road by Parkland estate Trans Amadi Port Harcourt.</span></li>
+                 <li><i class="fa fa-mail-bulk"></i><span> info@grandeurcribslimited.com</span></li>
+                 <li><i class="fa fa-phone"></i><span>(+234) 816 073 9629</span></li>
+               </ul>
+             </div>
+          </div>	 
+        
+       </div>
+    
+        </div>
+    </footer>
+    <!-- End Footer -->
+  
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="crp">© Copyright (GCL) All Rights Reserved.</p>
+                    <p class="crp">Designed by I-TECH HUB</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+</body>
+<script src=""></script>
+   <!-- ALL JS FILES -->
+   <script src="../assets/js/jquery.min.js"></script>
+   <script src="../assets/js/popper.min.js"></script>
+   <script src="../assets/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+     <!-- ALL PLUGINS -->
+     <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+     <script src="../assets/js/jquery.pogo-slider.min.js"></script>
+     <script src="../assets/js/slider-index.js"></script>
+     <!-- <script src="../assets/js/smoothscroll.js"></script> -->
+     <script src="../assets/js/form-validator.min.js"></script>
+     <script src="../assets/js/contact-form-script.js"></script>
+     <script src="../assets/js/isotope.min.js"></script>
+     <script src="../assets/js/images-loded.min.js"></script>
+     <script src="../assets/js/custom.js"></script>
+   
+</html>
